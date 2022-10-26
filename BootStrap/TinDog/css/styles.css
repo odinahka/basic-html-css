@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.title{
+    padding-top: 3%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 60%;
+    position: absolute;
+    transform: rotate(20deg);
+    margin-left: 30%;
+}
+
+/* Features */
+#features{
+    padding: 10%;
+    position: relative;
+}
+.feature-item{
+    text-align: center;
+    padding: 5%;
+}
+.feature-item h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+.feature-item p{
+    color: #8f8f8f;
+}
+.feature-icon{
+    color: #ef8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+ 
+ text-align: center;
+ background-color: #ef8172;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 10%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;   
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.press-logo{
+    width: 20%;
+    margin: 4px 3px; 
+}
+
+.card{
+    padding: 0;
+    margin: 4px;
+}
+.card-header{
+    width: 100%;
+}
+
+#cta{
+    font-family: "Montserrat Black";
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+}
+.cta-title{
+    padding: 30px;
+}
+.cta-btn{
+    margin:10px 
+}
+
+#footer{
+    height:100px;
+    text-align: center;
+}
+#footer i {
+   margin: 10px;
+   cursor: pointer;  
+}
+#footer div{
+    margin: 40px;
+}
+#footer p{
+    color:gray;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+@media (max-width:991px){
+    h1{
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.5; 
+    }
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+        padding: 10% 0;
+        margin-left: 0;
+    }  
+}
+ 
